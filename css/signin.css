@@ -1,0 +1,76 @@
+.signin {
+  margin-top:120px;
+  padding:100px 0 150px;
+  background: url("../images/signin_bg.jpg") center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.signin h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color:#fff;
+  margin-bottom: 24px;
+}
+.signin__card {
+  width: 500px;
+  background-color:#F6F5F0;
+  margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 2px 2px 20px rgba(0,0,0,.3);
+  color:#555;
+}
+.signin__card h2 {
+  text-align: center;
+  font-size:18px;
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.signin__card h2 strong {
+  color:#006633;
+  font-weight: 700;
+}
+.signin__card form {
+  padding:30px 22px;
+  border-bottom: 1px solid #ddd;
+}
+.signin__card form input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  padding:15px;
+  margin-bottom:12px;
+  font-size: 14px;
+}
+.signin__card form [type="submit"] {
+  color:#fff;
+  font-size:20px;
+  background-color: #006633;
+  border:none;
+  cursor:pointer;
+}
+.signin__card form p {
+  color:#006633;
+  font-size: 12px;
+  text-align: center;
+}
+.signin__card .actions {
+  display: flex;
+}
+.signin__card .actions a {
+  text-align: center;
+  font-size: 14px;
+  flex-grow:1;
+  flex-basis: 0;
+  padding:20px;
+  color:#555555;
+  border-right: 1px solid #ddd;
+}
+.signin__card .actions a:last-child {
+  border-right: none;
+}
+.signin__card .actions a:hover {
+  text-decoration: underline;
+}
